@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:background="@drawable/login"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/alata"
+        android:text="Login"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="please insert email and password"
+        android:fontFamily="@font/alata"
+        android:textSize="14dp"
+        android:layout_marginLeft="60dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:padding="20dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" email"
+            android:textColor="@color/orchid"
+            android:textColorHint="@color/orchid"
+            android:background="@drawable/background_white"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:id="@+id/email_login"
+            android:fontFamily="@font/alata"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" password"
+            android:background="@drawable/background_white"
+            android:textColorHint="@color/orchid"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:id="@+id/password_login"
+            android:fontFamily="@font/alata"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_radius"
+            android:textColor="@android:color/white"
+            android:padding="15dp"
+            android:id="@+id/btn_login"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="login"
+            android:fontFamily="@font/alata"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/forget_password"
+        android:padding="5dp"
+        android:layout_marginTop="140dp"
+        android:text="Forgot Password"
+        android:textColor="@color/orchid"
+        android:fontFamily="@font/alata"/>
+
+    <TextView
+        android:id="@+id/signup_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alata"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Don't have account ? Sign Up Here!"
+        android:textColor="@color/orchid" />
+
+</LinearLayout>
