@@ -79,7 +79,7 @@
         android:gravity="center"
         android:id="@+id/forget_password"
         android:padding="5dp"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="100dp"
         android:text="Forgot Password"
         android:textColor="@color/dream"
         android:fontFamily="@font/alata"/>
