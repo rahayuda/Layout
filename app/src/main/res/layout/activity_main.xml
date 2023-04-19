@@ -40,8 +40,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint=" email"
-            android:textColor="@color/orchid"
-            android:textColorHint="@color/orchid"
+            android:textColor="@color/dream"
+            android:textColorHint="@color/dream"
             android:background="@drawable/background_white"
             android:padding="15dp"
             android:layout_margin="10dp"
@@ -53,7 +53,7 @@
             android:layout_height="wrap_content"
             android:hint=" password"
             android:background="@drawable/background_white"
-            android:textColorHint="@color/orchid"
+            android:textColorHint="@color/dream"
             android:inputType="textPassword"
             android:padding="15dp"
             android:layout_margin="10dp"
@@ -81,7 +81,7 @@
         android:padding="5dp"
         android:layout_marginTop="140dp"
         android:text="Forgot Password"
-        android:textColor="@color/orchid"
+        android:textColor="@color/dream"
         android:fontFamily="@font/alata"/>
 
     <TextView
@@ -92,6 +92,6 @@
         android:gravity="center"
         android:padding="5dp"
         android:text="Don't have account ? Sign Up Here!"
-        android:textColor="@color/orchid" />
+        android:textColor="@color/dream" />
 
 </LinearLayout>
