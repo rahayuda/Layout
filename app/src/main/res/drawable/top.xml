@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Warna Background -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#3AB3F0"/> <!-- Warna latar belakang -->
+        </shape>
+    </item>
+
+    <!-- Border hanya di bagian bawah -->
+    <item android:bottom="10dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#0077A9"/> <!-- Warna border bawah -->
+            <size android:height="00dp"/> <!-- Ketebalan border bawah -->
+        </shape>
+    </item>
+
+</layer-list>
