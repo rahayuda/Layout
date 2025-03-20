@@ -4,7 +4,7 @@
     <!-- Saat tombol ditekan -->
     <item android:state_pressed="true">
         <shape android:shape="rectangle">
-            <corners android:radius="10dp" />
+            <corners android:radius="5dp" />
             <solid android:color="@color/dream" />
             <size android:width="150dp" android:height="40dp" />
         </shape>
@@ -13,7 +13,7 @@
     <!-- Saat tombol mendapatkan fokus -->
     <item android:state_focused="true">
         <shape android:shape="rectangle">
-            <corners android:radius="10dp" />
+            <corners android:radius="5dp" />
             <solid android:color="@color/dream" />
             <size android:width="150dp" android:height="40dp" />
         </shape>
@@ -23,10 +23,10 @@
     <item>
         <shape android:shape="rectangle">
             <corners
-                android:bottomLeftRadius="10dp"
-                android:bottomRightRadius="10dp"
-                android:topLeftRadius="10dp"
-                android:topRightRadius="10dp" />
+                android:bottomLeftRadius="5dp"
+                android:bottomRightRadius="5dp"
+                android:topLeftRadius="5dp"
+                android:topRightRadius="5dp" />
             <solid android:color="@color/dream" />
             <size android:width="150dp" android:height="40dp" />
         </shape>
