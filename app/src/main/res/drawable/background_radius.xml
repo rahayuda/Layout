@@ -5,7 +5,7 @@
     <item android:state_pressed="true">
         <shape android:shape="rectangle">
             <corners android:radius="5dp" />
-            <solid android:color="@color/dream" />
+            <solid android:color="@color/curve_dream" />
             <size android:width="150dp" android:height="40dp" />
         </shape>
     </item>
@@ -14,7 +14,7 @@
     <item android:state_focused="true">
         <shape android:shape="rectangle">
             <corners android:radius="5dp" />
-            <solid android:color="@color/dream" />
+            <solid android:color="@color/curve_dream" />
             <size android:width="150dp" android:height="40dp" />
         </shape>
     </item>
@@ -27,7 +27,7 @@
                 android:bottomRightRadius="5dp"
                 android:topLeftRadius="5dp"
                 android:topRightRadius="5dp" />
-            <solid android:color="@color/dream" />
+            <solid android:color="@color/curve_dream" />
             <size android:width="150dp" android:height="40dp" />
         </shape>
     </item>
