@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page_background"
+    android:padding="20dp">
+
+    <!-- Reminder Input -->
+    <EditText
+        android:id="@+id/name"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="reminder"
+        android:backgroundTint="@color/curve_dream"
+        android:textColorHint="@color/curve_dream"
+        android:textColor="@color/curve_dream"
+        android:textSize="14sp"
+        android:fontFamily="@font/alata"/>
+
+    <!-- Date Input -->
+    <EditText
+        android:id="@+id/date_input"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_toLeftOf="@+id/time_input"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="8dp"
+        android:hint="date"
+        android:backgroundTint="@color/curve_dream"
+        android:textColorHint="@color/curve_dream"
+        android:textColor="@color/curve_dream"
+        android:textSize="14sp"
+        android:fontFamily="@font/alata"/>
+
+    <!-- Time Input -->
+    <EditText
+        android:id="@+id/time_input"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_alignParentEnd="true"
+        android:hint="time"
+        android:backgroundTint="@color/curve_dream"
+        android:textColorHint="@color/curve_dream"
+        android:textColor="@color/curve_dream"
+        android:textSize="14sp"
+        android:fontFamily="@font/alata"/>
+
+    <!-- Done Button -->
+    <Button
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time_input"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/background_radius"
+        android:fontFamily="@font/alata"
+        android:textColor="@color/text"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="done" />
+
+</RelativeLayout>

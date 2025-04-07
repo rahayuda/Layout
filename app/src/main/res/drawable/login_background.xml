@@ -1,0 +1,23 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="500dp"
+    android:height="1000dp"
+    android:viewportWidth="500"
+    android:viewportHeight="1000">
+
+    <path
+        android:fillColor="@color/background"
+        android:pathData="M0,1000 Q300,1000 1000,1000 L500,0 L0,0 Z" />
+
+    <path
+        android:fillColor="@color/curve_gold"
+        android:pathData="M0,330 Q300,380 500,250 L500,0 L0,0 Z" />
+
+    <path
+        android:fillColor="@color/curve_dream"
+        android:pathData="M0,330 Q300,380 500,240 L500,0 L0,0 Z" />
+
+    <path
+        android:fillColor="@color/curve_gold"
+        android:pathData="M500,50 Q400,80 300,0 L0,0 L500,0 Z" />
+
+</vector>

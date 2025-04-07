@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    android:orientation="vertical"
+    android:background="@drawable/page_background">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="to"
+        android:fontFamily="@font/alata"
+        android:textColorHint="@color/curve_dream"
+        android:backgroundTint="@color/curve_dream"
+        android:textSize="14sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="subject"
+        android:fontFamily="@font/alata"
+        android:textColorHint="@color/curve_dream"
+        android:backgroundTint="@color/curve_dream"
+        android:textSize="14sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="message"
+        android:fontFamily="@font/alata"
+        android:textColorHint="@color/curve_dream"
+        android:backgroundTint="@color/curve_dream"
+        android:textSize="14sp"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="send"
+        android:fontFamily="@font/alata"
+        android:gravity="center"
+        android:textColor="@color/text"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:background="@drawable/background_radius"/>
+</LinearLayout>
